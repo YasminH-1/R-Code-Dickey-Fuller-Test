@@ -1,5 +1,5 @@
 # R-Code-Dickey-Fuller-Test
-R Code I used to verify NICE assumptions on the dataset using an ARIMA model and applying a Dickey-Fuller Test
+# R Code I used to verify NICE assumptions on the dataset using an ARIMA model and applying a Dickey-Fuller Test
 x=LakeHuron #dataset being used; found directly on R; has 98 observations
 plot.ts(LakeHuron) #timeseries plot of dataset
 x.acf=acf(x) #acf of original dataset
